@@ -1,0 +1,66 @@
+body{
+    background: #252526;
+    color: #FFFFFA;
+    font-family: "Georgia", "serif";
+    font-size: 1em;
+    line-height: 1.5;
+
+}
+body#coverpage{
+    background-image: url(photos/cover_photo.jpg);
+    background-repeat:no-repeat;
+    background-size:50% auto;
+    background-position: top right;
+}
+h1#coverpage{
+    width: 50%;
+    
+}
+p#coverpage{
+    background: #6C6B6D;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 70%;
+    
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+width: 25em;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: .5em .5em;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #6C6B6D;
+}
+h1{
+    color: #ed0000;
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+nav a, footer a{
+    color: #FFFFFA;
+}
+nav a:hover, footer a:hover { 
+    text-decoration: none;
+}
