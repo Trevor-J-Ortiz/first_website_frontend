@@ -1,66 +1,88 @@
 body{
-    background: #252526;
-    color: #FFFFFA;
-    font-family: "Georgia", "serif";
-    font-size: 1em;
+    background-color: #FFFFFF;
+    color: black;
+    font-family: "Times New Roman", 'Times', 'serif';
     line-height: 1.5;
-
+    max-width: 1500px;
 }
-body#coverpage{
-    background-image: url(photos/cover_photo.jpg);
-    background-repeat:no-repeat;
-    background-size:50% auto;
-    background-position: top right;
-}
-h1#coverpage{
-    width: 50%;
-    
-}
-p#coverpage{
-    background: #6C6B6D;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 70%;
-    
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-width: 25em;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  text-align: center;
-  padding: .5em .5em;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-nav ul li a:hover {
-  background-color: #6C6B6D;
-}
-h1{
+div#EFP{
     color: #ed0000;
     font-family: "Dancing Script", cursive;
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
+    font-weight: 500px;
+    
 }
-h2{
-    text-decoration: underline;
-    font-size: 2em;
-    font-weight: normal;
+div.contact_bar{
+    overflow:hidden;
+    margin-right: 5%;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    border-width: thin;
+    
+    
+    
 }
-
-nav a, footer a{
-    color: #FFFFFA;
+div.contact_bar a{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
 }
-nav a:hover, footer a:hover { 
+a.contact_me{
+    color: black;
     text-decoration: none;
+    font-weight: 700;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: thin;
+    
+}
+a.contact_me:hover{
+    color:darkgray;
+}
+nav.sidebar{
+    height: 100%;
+    width: 160px;
+    float: left;
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    margin-top: 10px;
+    border-width: thin;
+}
+div.name{
+    color: #ed0000;
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5em;
+    font-weight: 600;
+text-align: center
+}
+nav.sidebar a{
+    padding: 8px;
+    padding-left: 16px;
+    font-size: 1em;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 700
+}
+nav.sidebar a:hover{
+    color: darkgray;
+}
+main{
+    margin-left: 160px;
+    margin-right: 5%;
+}
+img.cover_photo{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
 }
